@@ -1,18 +1,9 @@
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.concurrent.Callable;
-
 public class Main {
-    static List<String> names = Arrays.asList("peter", "anna", "mike", "xenia");
-    int fff = 6;
     public static void main(String[] args) {
-        Collections.sort(names, String::compareTo);
-        /*System.out.println("1)------------------------------");
+        System.out.println("1)------------------------------");
         Matrix mat = new Matrix(5,5);
         mat.getMatr();
-        System.out.println(Matrix.task1(mat));*/
+        System.out.println(Matrix.task1(mat));
         /*System.out.println("2)------------------------------");
         Vector vector = new Vector(10);
         vector.getMas();

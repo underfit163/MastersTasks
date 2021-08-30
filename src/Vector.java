@@ -1,4 +1,3 @@
-import java.util.LinkedList;
 import java.util.Random;
 
 public class Vector {
@@ -232,7 +231,7 @@ public class Vector {
     /**
      * Сортировка пузырьком по возрастанию
      *
-     * @param vect
+     * @param vect передаваемый массив
      */
     public static void task26v1(Vector vect) {
         for (int i = 0; i < vect.getN(); i++) {
@@ -250,7 +249,7 @@ public class Vector {
     /**
      * Сортировка пузырьком по убыванию
      *
-     * @param vect
+     * @param vect передаваемый массив
      */
     public static void task26v2(Vector vect) {
         for (int i = 0; i < vect.getN(); i++) {
@@ -268,7 +267,7 @@ public class Vector {
     /**
      * Сортировка пузырьком по возрастанию
      *
-     * @param vect
+     * @param vect передаваемый массив
      */
     public static double task27(Vector vect) {
         double sumMean;
